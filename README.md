@@ -84,7 +84,7 @@ concat combine
 | Argument                                 | Description                                            |
 | ---------------------------------------- | ------------------------------------------------------ |
 | `-e EXT`, `--extension EXT`              | Enforce a specific extension; otherwise all must match |
-| `--sample-rows N`                        | Rows used for delimiter sniffing (default 50)          |
+| `--sample-rows N`                        | Rows used for delimiter sniffing (default: 50)          |
 | `--normalize {comma,tab,semicolon,pipe}` | Normalize mixed delimiters to a unified one            |
 
 Supported delimiters:
@@ -129,7 +129,7 @@ Missing policy behaviors:
 | Argument                             | Description                                      |
 | ------------------------------------ | ------------------------------------------------ |
 | `--no-source-col`                    | Disable automatic first-column source annotation |
-| `--source-col-name NAME`             | Rename the source column (default `source_file`) |
+| `--source-col-name NAME`             | Rename the source column (default: `source_file`) |
 | `--source-col-mode {name,stem,path}` | Value in source column                           |
 
 Modes:
@@ -145,7 +145,7 @@ Modes:
 | Argument                                 | Description                      |
 | ---------------------------------------- | -------------------------------- |
 | `-o FILE`, `--out FILE`                  | Output file (required)           |
-| `--out-delim {comma,tab,semicolon,pipe}` | Output delimiter (default comma) |
+| `--out-delim {comma,tab,semicolon,pipe}` | Output delimiter (default: comma) |
 | `--no-header`                            | Omit header row                  |
 
 ---
@@ -154,8 +154,8 @@ Modes:
 
 | Argument              | Description                           |
 | --------------------- | ------------------------------------- |
-| `--chunksize N`       | Rows per chunk (default 200,000)      |
-| `-T N`, `--threads N` | Threads for normalization (default 4) |
+| `--chunksize N`       | Rows per chunk (default: 200,000)      |
+| `-T N`, `--threads N` | Threads for normalization (default: 4) |
 
 ---
 
