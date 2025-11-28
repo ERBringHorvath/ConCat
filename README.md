@@ -16,9 +16,9 @@ ConCat (short for **concatenate**) is a Python-based command-line tool designed 
 
 # Installation
 
-## Option A — Install via pip (development or user install)
+## Install via pip (development or user install)
 
-We recommend ConCat be installed in your `~/home` directory
+We recommend installing ConCat in your `~/home` directory
 
 ```bash
 cd ~
