@@ -1,5 +1,3 @@
-# **<ins>ConCat<ins/>**
-
 <img src="img/ConCat_V2.jpg" width="100%">
 
 ConCat (short for **concatenate**) is a flexible, robust toolkit for combining
@@ -10,6 +8,8 @@ tabular files (CSV/TSV/etc.) with:
 - Optional column selection (`--columns`)
 - Automatic source filename column as the first field
 - Chunked, streaming concatenation for large files
+
+________________________________________________________________________________________________________
 
 ## Installation
 
