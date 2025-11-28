@@ -10,7 +10,7 @@ ConCat (short for **concatenate**) is a Python-based command-line tool designed 
 * Column-selection mode with missing-column policies
 * Automatic source-file annotation (first column)
 * Chunked streaming for multi‑GB files
-* Modular architecture similar to SeqForge and ReGAIN
+* Modular architecture similar to [SeqForge](https://github.com/ERBringHorvath/SeqForge) and [ReGAIN](https://github.com/ERBringHorvath/regain_CLI)
 
 ---
 
